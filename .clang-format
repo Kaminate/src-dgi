@@ -1,0 +1,23 @@
+# Max <mxcop> ' clang-format
+# 10/11/2023
+
+BasedOnStyle: Google
+Language: Cpp
+IndentWidth: 4
+TabWidth: 4
+UseTab: Never
+ColumnLimit: 152
+
+AllowShortCaseLabelsOnASingleLine: true
+BinPackParameters: true
+BinPackArguments: true
+AllowAllParametersOfDeclarationOnNextLine: false
+AlignAfterOpenBracket: DontAlign
+
+# DO NOT Sort includes!
+SortIncludes: false
+
+# Pointers & References
+DerivePointerAlignment: false
+PointerAlignment: Left
+ReferenceAlignment: Left

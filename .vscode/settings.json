@@ -1,0 +1,25 @@
+{
+    "window.title": "Wyre Engine",
+    "cmake.debugConfig": {
+        "cwd": "${workspaceFolder}"
+    },
+    "cmake.configureOnOpen": false,
+    "cmake.options.advanced": {
+        "configurePreset": {
+            "statusBarVisibility": "visible"
+        },
+        "buildPreset": {
+            "statusBarVisibility": "visible"
+        },
+        "launchTarget": {
+            "statusBarVisibility": "visible"
+        }
+    },
+    "files.exclude": {
+        "**/.git": true,
+        "out": true,
+        ".vs": true,
+        "**/**.spv": true
+    },
+    "C_Cpp.autoAddFileAssociations": false
+}
