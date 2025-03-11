@@ -18,7 +18,7 @@
 This repository contains an experimental implementation of diffuse global illumination.  
 Making use out of [Radiance Cascades (RC)](https://github.com/Raikiri/RadianceCascadesPaper) consisting of [Surfel](https://www.ea.com/seed/news/siggraph21-global-illumination-surfels) Probes.
 
-<img style="max-width: 640px" src="./.github/pipeline.png">
+<img width=640px src="./.github/pipeline.png">
 
 The entire render pipeline consists of 2 interleaved parts, Surfel maintenance & Radiance gathering.  
 Surfel maintenance as the name suggests maintains the Surfels, spawning and recycling them as you move.  
@@ -34,5 +34,5 @@ Radiance gathering is split into 3 parts:
 <h2></h2>
 <div>
     <sub align=left>© 2025 Max &lt;mxcop&gt;, All rights reserved — <a href="./license.md">MIT</a>.</sub>
-    <a href="https://www.buas.nl/en"><img align=right style="max-width: 128px" title="I wrote this implementation while studying at BUAS." src="./.github/buas-logo.png"></a>
+    <a href="https://www.buas.nl/en"><img align=right width=128px title="I wrote this implementation while studying at BUAS." src="./.github/buas-logo.png"></a>
 </div>
