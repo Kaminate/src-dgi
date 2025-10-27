@@ -32,7 +32,7 @@ import hash;
 inline uint2 get_resolution(const RWTexture2D<float4> tex) { uint2 r; tex.GetDimensions(r.x, r.y); return r; }
 
 /* Swap the contents of 2 variables. */
-inline void swap<T>(inout T a, inout T b) { const T c = a; a = b, b = c; }
+inline void swap<T>(inout T a, inout T b) { const T c = a; a = b; b = c; }
 
 #define COS_SUM 0
 

@@ -17,6 +17,7 @@ const std::vector<const char*> DEVICE_EXT = {
     /* Dynamic Rendering */
     VK_KHR_DYNAMIC_RENDERING_EXTENSION_NAME,
     VK_KHR_DEPTH_STENCIL_RESOLVE_EXTENSION_NAME,
+    VK_KHR_SHADER_DRAW_PARAMETERS_EXTENSION_NAME,
     VK_KHR_CREATE_RENDERPASS_2_EXTENSION_NAME};
 
 bool validate_extensions(const std::vector<const char*>& required, const std::vector<vk::ExtensionProperties>& available) {

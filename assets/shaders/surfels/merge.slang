@@ -46,7 +46,7 @@ inline uint2 cvt_4x1_2x2(const uint offset_index) {
 }
 
 /* Swap the contents of 2 variables. */
-inline void swap<T>(inout T a, inout T b) { const T c = a; a = b, b = c; }
+inline void swap<T>(inout T a, inout T b) { const T c = a; a = b; b = c; }
 
 [shader("compute")] /* Compute shader entry point */
 [numthreads(16, 16, 1)]

@@ -43,5 +43,6 @@ compile_shader("${SHADER_DIR}/surfels/merge.slang")
 compile_shader("${SHADER_DIR}/surfels/recycle.slang")
 compile_shader("${SHADER_DIR}/surfels/spawn.slang")
 
+compile_shader("${SHADER_DIR}/final.slang")
 add_custom_target(compile_spirv DEPENDS ${SPIRV_BINARY_FILES})
 add_dependencies(wyre compile_spirv)
